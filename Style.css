@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+:root {
+    --bg-color: #1c232e;
+    --primary-color: #03484c;
+    --secondary-color: #0f684b;
+    --third-color: #3b8952;
+    --third-bis-color: #53ac59;
+    --bg-input-color: #2D2D2D;
+    --text-color: whitesmoke;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+    font-family: "Alata", sans-serif, "Arial";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contenedor1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+
+
+}
+
+.contenedor{
+    color: var(--secondary-color);
+    border:solid 5px var(--third-bis-color);
+    margin: 10px;
+    padding: 10px;
+    
+
+    
+}
