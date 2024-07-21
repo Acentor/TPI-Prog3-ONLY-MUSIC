@@ -24,6 +24,8 @@
 }
 
 
+/* estilo heather */
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -111,9 +113,75 @@ header .btn:hover {
 }
 
 
+/* estilo busquedas */
+
+.cont3 {
+    background: var(--bg-input-color);
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    padding: 5%;
+}
+
+.table {
+    width: 80%;
+}
+
+.table caption {
+    color: var(--text-color);
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table tr {
+    border-radius: 5px;
+    background-color: var(--bg-input-color);
+    border: var(--bg-input-color);
+}
+
+.table th{
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid var(--third-color);
+
+}
+
+
+.table td {
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    color: var(--text-color);
+    text-align: center;
+    border: 1px solid var(--bg-input-color);
+}
+
+.table thead th {
+    text-transform: uppercase;
+    background-color: var(--third-bis-color);
+}
+
+.table td img {
+    width: 15vw;
+    height: auto;
+}
+
+.table tbody tr:hover {
+    background-color: rgba(0, 153, 41, 0.05);
+}
+
+.table tbody td:hover {
+    background-color: rgba(0, 153, 41, 0.05);
+}
 
 
 
+
+/* estilo error */
 
 .cont1 {
     height: 100%;
