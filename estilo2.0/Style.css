@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+:root {
+    --bg-color: #1c232e;
+    --primary-color: #03484c;
+    --secondary-color: #0f684b;
+    --third-color: #3b8952;
+    --third-bis-color: #53ac59;
+    --bg-input-color: #2D2D2D;
+    --text-color: whitesmoke;
+    --neon-color: #F00BB8;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+    font-family: "Alata", sans-serif, "Arial";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.base{
+    background:var(--bg-color);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 150px;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+
+}
+.formulario{
+    background:var(--text-color);
+    margin-top: 150px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    color:var(--primary-color);
+    font-size: 40px;
+}
+input[type="text"], 
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border:none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border:1px solid var(--neon-color);
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color:var(--bg-input-color);
+}
+.button{
+    border:none;
+    width: 100%;
+    color: var(--text-color);
+    font-size: 20px;
+    background:var(--primary-color);
+    padding: 15px 20px ;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.button:hover{
+    background: var(--third-bis-color);
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration:none;
+    color: var(--bg-color);
+    font-weight: 600;
+}
+.link:hover{
+    color:var(--primary-color);
+}
+@media(min-width: 768px)
+{
+    .formulario{
+        margin:auto;
+        width: 500px;
+       
+        border-radius: 2%;
+    }
+}
